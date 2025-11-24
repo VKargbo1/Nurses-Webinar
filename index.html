@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurse Wealth Blueprint: Build Financial Freedom Without Burnout - Mojoo Capital Partners</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="container">
+            <img src="MCP_IMG1.png" alt="Mojoo Capital Partners Logo" class="logo">
+            
+            <h1>🩺 Nurse Wealth Blueprint: <span class="highlight-blue">Build Financial Freedom</span> Without Burnout</h1>
+            <p class="sub-headline">STOP TRADING YOUR HOURS FOR DOLLARS. Discover the proven wealth strategies that secure your future and protect your peace of mind.</p>
+            
+            <a href="#register" class="cta-button primary-cta top-cta">➡️ Save My Free Seat</a>
+
+            <div class="webinar-details-bar">
+                <p><strong>FREE LIVE WEBINAR</strong> | Date: December 3, 2025 | Time: 3PM EST, 2PM CST</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="registration-form-section" id="register">
+        <div class="container form-layout">
+            <div class="form-card">
+                <h2>Secure Your Spot Now!</h2>
+                <p class="urgency-text">🔥 **Seats are strictly limited.** Register now to get the link to this live-only, high-value training!</p>
+                
+                <div class="plato-form-widget" data-pf-id="frc60u5pocc" data-pf-host="form.formcan.com/">
+                    </div><script src="//static.formcan.com/assets/dist/formbuilder.js?v=20"></script>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <section class="pain-points-section">
+        <div class="container">
+            <h2>Tired of the Financial Stress That Comes with Saving Lives?</h2>
+            <p>You dedicate your life to the well-being of others, but who is protecting *your* financial future? If you're a nurse feeling the weight of these stresses, **you are not alone**:</p>
+            <ul class="pain-list">
+                <li>**🤯 Overtime Burnout:** Constantly working extra shifts just to feel like you’re staying afloat.</li>
+                <li>**📉 Retirement Fears:** Worrying if your current plan is enough to maintain your lifestyle.</li>
+                <li>**💸 Tax Stress:** Seeing too much of your hard-earned income disappear to taxes—especially as a **Travel Nurse** or **Nurse Practitioner**.</li>
+                <li>**🎓 Debt Drag:** Feeling overwhelmed by student loans and high-interest debt that stalls your **wealth-building**.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="benefits-section">
+        <div class="container">
+            <div class="benefit-card">
+                <h2>💡 The Solution: A Financial Blueprint Built *Specifically* for Nurses</h2>
+                <p>You need financial strategies that work as hard as you do. Join our free, live webinar to learn how to achieve **financial freedom** without sacrificing your mental health or family time.</p>
+                
+                <h3>What You'll Learn:</h3>
+                <ul class="learn-list">
+                    <li>**The Nurse’s Wealth-Building Formula:** A step-by-step guide to shifting from paycheck-to-paycheck to strategic investing.</li>
+                    <li>**Tax Efficiency Secrets:** Simple, actionable **tax-efficient strategies** to legally reduce your tax burden.</li>
+                    <li>**Retirement Security Decoded:** Beyond the 401k: Utilizing alternative assets for faster growth and **retirement security**.</li>
+                    <li>**Protect Your Income & Assets:** Essential risk management to safeguard your wealth and **protect income**.</li>
+                    <li>**Financial Confidence in Minutes:** How to build genuine **financial confidence** and stability.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="host-section">
+        <div class="container">
+            <h2>Meet Your Host: Val Kargbo</h2>
+            <div class="host-details">
+                <div class="host-photo">
+                    <img src="pic_vk3.png">
+                </div>
+                <div class="host-bio">
+                    <h3>CEO, Mojoo Capital Partners</h3>
+                    <p>Val Kargbo is a seasoned financial expert committed to equipping healthcare heroes with the knowledge to build lasting generational wealth. At Mojoo Capital Partners, our mission is driven by the belief that every nurse deserves a **better financial life**.</p>
+                    <blockquote class="mission-statement">
+                        "We are a **mission-driven** firm. We believe the people who save our lives deserve to secure their own. Our strategies are designed to deliver financial empowerment with clarity and support."
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="proof-section">
+        <div class="container">
+            <h2>Hear From Your Peers</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"Now I have a clear plan and the **financial confidence** to finally start investing."</p>
+                    <p class="source">- *Sarah, RN*</p>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The tax tips alone were worth the time. I'm already implementing the strategies to **protect my income**."</p>
+                    <p class="source">- *Mark, NP*</p>
+                </div>
+                <div class="testimonial-card">
+                    <p>"I always thought **wealth building** was too complicated. Val broke it down into simple steps."</p>
+                    <p class="source">- *Jessica, Travel Nurse*</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-cta-section">
+        <div class="container">
+            <p class="final-urgency">🚨 Don't miss this opportunity! Spots are strictly limited & this is a **LIVE-ONLY** event!</p>
+            <a href="#register" class="cta-button primary-cta final-cta">➡️ Save My Free Seat</a>
+            <p class="copyright">&copy; 2025 Mojoo Capital Partners. Building a Better Financial Life.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

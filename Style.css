@@ -1,0 +1,325 @@
+CSS
+/* --- Global Styles --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8; /* Light off-white background */
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #004c8c; /* Dark Blue - Professional tone */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+    border-bottom: 2px solid #ffcc00; /* Gold/Yellow accent */
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.highlight-blue {
+    color: #007bff; /* Bright Blue for emphasis */
+}
+
+/* --- CTA Buttons --- */
+.cta-button {
+    display: block;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: 700;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.1s;
+    text-transform: uppercase;
+}
+
+.primary-cta {
+    background-color: #ffcc00; /* Gold/Yellow - High Contrast */
+    color: #004c8c; /* Dark Blue text */
+    border: 3px solid #004c8c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.primary-cta:hover {
+    background-color: #ffd633; /* Slightly brighter on hover */
+    transform: translateY(-2px);
+}
+
+/* --- 1. HERO SECTION --- */
+.hero-section {
+    background: linear-gradient(180deg, #e0f0ff, #ffffff); /* Soft blue gradient */
+    padding: 40px 0 30px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.sub-headline {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #555;
+    max-width: 700px;
+    margin: 10px auto 30px;
+}
+
+.webinar-details-bar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+/* --- 2. REGISTRATION & URGENCY SECTION --- */
+.registration-form-section {
+    background-color: #ffffff;
+    padding: 40px 0;
+    border-bottom: 5px solid #ffcc00;
+}
+
+.form-layout {
+    display: flex;
+    justify-content: center;
+}
+
+.form-card {
+    background-color: #f1f8ff; /* Very light blue background for the form area */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.urgency-text {
+    color: #e60000; /* Red for urgency */
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.form-placeholder {
+    /* Placeholder styles for where the actual form element would go */
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 30px 15px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* --- 3. PAIN POINTS SECTION --- */
+.pain-points-section {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pain-list {
+    text-align: left;
+    max-width: 700px;
+    margin: 20px auto;
+    list-style: none;
+    padding: 0;
+}
+
+.pain-list li {
+    background: #fff;
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    font-size: 1.1em;
+}
+
+/* --- 4. WHAT YOU'LL LEARN / BENEFITS SECTION --- */
+.benefits-section {
+    background-color: #e0f0ff; /* Light blue background for key value */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.learn-list {
+    text-align: left;
+    max-width: 800px;
+    margin: 20px auto;
+    list-style-type: none; /* Remove default bullet */
+    padding: 0;
+}
+
+.learn-list li {
+    background: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-left: 40px;
+}
+
+.learn-list li::before {
+    content: '✅'; /* Checkmark for benefits */
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+}
+
+/* --- 5. HOST AUTHORITY BIO --- */
+.host-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.host-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.host-photo {
+    /* Placeholder for the headshot */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: 5px solid #ffcc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.host-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mission-statement {
+    background-color: #f4f4f4;
+    border-left: 4px solid #004c8c;
+    padding: 15px;
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+/* --- 6. SOCIAL PROOF / TESTIMONIALS --- */
+.proof-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.testimonial-card {
+    background-color: #f1f8ff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 30%; /* Allows cards to wrap on smaller screens */
+    min-width: 250px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-card p {
+    font-style: italic;
+    margin-top: 0;
+}
+
+.testimonial-card .source {
+    font-weight: 600;
+    color: #007bff;
+    font-style: normal;
+    text-align: right;
+}
+
+/* --- 7. FOOTER CTA / FINAL SECTION --- */
+.footer-cta-section {
+    background-color: #004c8c; /* Dark Blue Footer */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.final-urgency {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+/* --- Media Queries for Responsiveness --- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .host-details {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonial-grid {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
